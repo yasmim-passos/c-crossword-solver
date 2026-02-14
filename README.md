@@ -1,8 +1,8 @@
 # 🧩 Palavras Cruzadas (Crossword Solver)
 
-Projeto desenvolvido para a disciplina *Estrutura de Dados II*.
+Projeto desenvolvido para a disciplina **Estrutura de Dados II**.
 
-Um solucionador de palavras cruzadas com ajuda de dicas baseadas nos significados das palavras em *C puro* utilizando *Backtracking* com visualização gráfica em *Raylib*.
+Um solucionador de palavras cruzadas com ajuda de dicas baseadas nos significados das palavras em **C puro** utilizando **Backtracking** com visualização gráfica em **Raylib**.
 
 ---
 
@@ -21,46 +21,46 @@ Aplicar na prática conceitos de:
 
 ## 🛠️ Tecnologias
 
-* Linguagem: *C*
-* Interface Gráfica: *Raylib*
-* Algoritmo principal: *Backtracking*
-* Plataforma: *Windows* 
+* Linguagem: **C**
+* Interface Gráfica: **Raylib**
+* Algoritmo principal: **Backtracking**
+* Plataforma: **Windows** 
 
 ---
 
 ## 🚀 Como Executar
 
 ### Pré-requisitos
-1.  *Raylib Instalado*: Este projeto depende da biblioteca Raylib. Recomenda-se usar o kit w64devkit da Raylib.
-    *   Instale em: C:\raylib\w64devkit (padrão)
-    *   Ou ajuste os caminhos no Makefile / build.bat.
+1.  **Raylib Instalado**: Este projeto depende da biblioteca Raylib. Recomenda-se usar o kit `w64devkit` da Raylib.
+    *   Instale em: `C:\raylib\w64devkit` (padrão)
+    *   Ou ajuste os caminhos no `Makefile` / `build.bat`.
 
 ### Compilando e Rodando
 
-*Opção A: Usando build.bat (Windows)*
+**Opção A: Usando build.bat (Windows)**
 1.  Abra o terminal na pasta do projeto.
 2.  Execute:
-    cmd
+    ```cmd
     build.bat
-    
-3.  O executável será criado em bin/main.exe.
+    ```
+3.  O executável será criado em `bin/main.exe`.
 
-*Opção B: Usando Makefile (MinGW/Make)*
+**Opção B: Usando Makefile (MinGW/Make)**
 1.  Abra o terminal.
 2.  Execute:
-    bash
+    ```bash
     make
-    
+    ```
 3.  Execute o jogo:
-    bash
+    ```bash
     make run
-    
+    ```
 
 ---
 
 ## 📂 Estrutura do Projeto
 
-
+```
 ├── src/
 │   ├── app/
 │   │   └── main.c          # Lógica principal e loop do jogo
@@ -101,13 +101,13 @@ Aplicar na prática conceitos de:
 ├── docs/
 |   │   ├── Makefile        # Script de compilação
 |__ |   └── PalavrasCruzadas.pdf #Slide de Apresentação
-
+```
 
 ---
 
 ## 🚧 Status do Projeto
 
-✅ *Concluído*
+✅ **Concluído**
 - [x] Interface Gráfica (Raylib)
 - [x] Lógica de Jogo (3 Níveis PT / 3 Níveis EN)
 - [x] Backtracking/Solver
